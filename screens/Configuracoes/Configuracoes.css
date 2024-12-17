@@ -1,0 +1,36 @@
+import { StyleSheet } from "react-native";
+
+export const getStyles = (theme) =>
+  StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: theme === "dark" ? "#000" : "#fff",
+    },
+    header: {
+      padding: 20,
+      backgroundColor: theme === "dark" ? "#333" : "#6200ee",
+      alignItems: "center",
+    },
+    iconTouchable: {
+      padding: 10,
+      borderRadius: 50,
+      backgroundColor: theme === "dark" ? "#444" : "#eee",
+    },
+    configButtonsContainer: {
+      flex: 1,
+      padding: 20,
+    },
+    configButton: {
+      flexDirection: "row",
+      alignItems: "center",
+      padding: 15,
+      marginBottom: 10,
+      backgroundColor: theme === "dark" ? "#222" : "#f0f0f0",
+      borderRadius: 8,
+    },
+    textConfigButton: {
+      marginLeft: 10,
+      color: theme === "dark" ? "#fff" : "#000",
+      fontSize: 16,
+    },
+  });

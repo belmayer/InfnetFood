@@ -1,0 +1,83 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#f8f5f0",
+    padding: 16,
+  },
+  header: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 16,
+    borderBottomWidth: 1,
+    borderColor: "#d8cdb2",
+    paddingBottom: 8,
+  },
+  title: {
+    fontSize: 26,
+    fontWeight: "600",
+    color: "#7d6a3f",
+  },
+  menuButton: {
+    padding: 8,
+    borderRadius: 8,
+    backgroundColor: "#d8cdb2",
+  },
+  menuIcon: {
+    fontSize: 20,
+    color: "#5e5035",
+  },
+  emptyMessage: {
+    fontSize: 18,
+    color: "#7d6a3f",
+    textAlign: "center",
+    marginTop: 32,
+  },
+  itemContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderBottomWidth: 1,
+    borderColor: "#d8cdb2",
+  },
+  itemName: {
+    fontSize: 18,
+    color: "#5e5035",
+  },
+  itemPrice: {
+    fontSize: 18,
+    fontWeight: "600",
+    color: "#7d6a3f",
+  },
+  removeButton: {
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    backgroundColor: "#e57373",
+    borderRadius: 4,
+  },
+  removeButtonText: {
+    color: "#fff",
+    fontSize: 14,
+    fontWeight: "bold",
+  },
+  divider: {
+    borderTopWidth: 1,
+    borderColor: "#d8cdb2",
+    marginVertical: 16,
+  },
+  totalContainer: {
+    alignItems: "center",
+    padding: 16,
+    borderRadius: 8,
+    backgroundColor: "#e9e1d4",
+  },
+  totalText: {
+    fontSize: 22,
+    fontWeight: "bold",
+    color: "#5e5035",
+  },
+});

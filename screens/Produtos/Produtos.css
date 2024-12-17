@@ -1,0 +1,55 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 16,
+    backgroundColor: "#fff",
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 16,
+    color: "#6200EE", 
+    textAlign: "center", 
+  },
+  productItem: {
+    fontSize: 18,
+    padding: 12,
+    marginVertical: 8, 
+    borderRadius: 8, 
+    borderBottomWidth: 1,
+    borderBottomColor: "#e0e0e0", 
+    color: "#333",
+    backgroundColor: "#f9f9f9", 
+    shadowColor: "#000", 
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 2, 
+  },
+  productItemText: {
+    fontSize: 18,
+    color: "#333",
+    fontWeight: "500", 
+  },
+  productPrice: {
+    fontSize: 16,
+    color: "#6200EE", 
+    fontWeight: "bold",
+    marginTop: 4, 
+  },
+  cartButton: {
+    backgroundColor: "#6200EE", 
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 20,
+  },
+  cartButtonText: {
+    fontSize: 18,
+    color: "#fff",
+    fontWeight: "bold",
+  },
+});

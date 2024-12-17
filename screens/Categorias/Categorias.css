@@ -1,0 +1,56 @@
+.container {
+  flex: 1;
+  background-color: #ffffff; 
+  padding: 16px;
+}
+containerDark: {
+    backgroundColor: "#121212", 
+  },
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000; 
+  margin-bottom: 16px;
+}
+titleDark: {
+    color: "#fff", 
+  },
+.card {
+  flex-direction: row;
+  align-items: center;
+  background-color: #f8f8f8; 
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 12px;
+  elevation: 2;
+}
+cardDark: {
+    backgroundColor: "#1e1e1e",
+  },
+.cardImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-right: 16px;
+}
+
+.cardText {
+  font-size: 18px;
+  color: #333333; 
+}
+
+.containerDark {
+  background-color: #121212;
+}
+
+.titleDark {
+  color: #ffffff; 
+}
+
+.cardDark {
+  background-color: #1e1e1e; 
+}
+
+.cardTextDark {
+  color: #cccccc; 
+}
